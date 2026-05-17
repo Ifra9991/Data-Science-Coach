@@ -1,0 +1,22 @@
+{
+  "learner_level": "intermediate",
+  "current_streak": 1,
+  "longest_streak": 1,
+  "last_completed_date": "2026-05-17",
+  "completed_days": [
+    {
+      "day": 1,
+      "date": "2026-05-17",
+      "topic": "Data leakage and feature windows",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "6.5/7",
+      "weak_areas": [
+        "Precise wording around prediction-time availability"
+      ],
+      "notes": "Understands that leakage depends on time availability, not just feature names."
+    }
+  ]
+}
