@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 1,
-  "longest_streak": 1,
-  "last_completed_date": "2026-05-17",
+  "current_streak": 2,
+  "longest_streak": 2,
+  "last_completed_date": "2026-05-18",
   "completed_days": [
     {
       "day": 1,
@@ -17,6 +17,22 @@
         "Precise wording around prediction-time availability"
       ],
       "notes": "Understands that leakage depends on time availability, not just feature names."
+    },
+    {
+      "day": 2,
+      "date": "2026-05-18",
+      "topic": "Precision, recall, F1-score, and classification thresholds",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "6/8",
+      "weak_areas": [
+        "Explaining why a threshold change affects recall only when actual positives cross the new threshold",
+        "Precise wording for F1-score limitations",
+        "Correctly describing higher threshold effects on false positives and precision"
+      ],
+      "notes": "Good understanding of precision and recall definitions and the false positive/false negative decision rule. Needs more practice with threshold movement and business interpretation."
     }
   ]
 }
