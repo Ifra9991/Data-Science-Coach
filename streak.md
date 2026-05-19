@@ -2,12 +2,29 @@
 
 ## Current Status
 
-- Current streak: 2 days
-- Longest streak: 2 days
-- Last completed date: 2026-05-18
+- Current streak: 3 days
+- Longest streak: 3 days
+- Last completed date: 2026-05-19
 - Learner level: Intermediate
 
 ## Completed Days
+
+### Day 3 - 2026-05-19
+
+**Topic:** Cross-validation, stratified folds, time-based validation, and final test sets
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 6.5/8
+
+**Key learning:** Cross-validation estimates model stability, StratifiedKFold preserves class ratios for imbalanced classification, and validation strategy should imitate deployment.
+
+**Weak areas to polish:** The precise role of the final test set and explaining test-set overfitting as human/model-selection leakage rather than the model directly learning the test set.
 
 ### Day 2 - 2026-05-18
 
