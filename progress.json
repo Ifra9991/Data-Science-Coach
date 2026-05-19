@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 2,
-  "longest_streak": 2,
-  "last_completed_date": "2026-05-18",
+  "current_streak": 3,
+  "longest_streak": 3,
+  "last_completed_date": "2026-05-19",
   "completed_days": [
     {
       "day": 1,
@@ -33,6 +33,21 @@
         "Correctly describing higher threshold effects on false positives and precision"
       ],
       "notes": "Good understanding of precision and recall definitions and the false positive/false negative decision rule. Needs more practice with threshold movement and business interpretation."
+    },
+    {
+      "day": 3,
+      "date": "2026-05-19",
+      "topic": "Cross-validation, stratified folds, time-based validation, and final test sets",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "6.5/8",
+      "weak_areas": [
+        "Precise role of the final test set",
+        "Explaining that repeated test-set checking causes humans to overfit decisions to the test set, rather than the model directly learning it"
+      ],
+      "notes": "Good understanding of why single splits can mislead, why StratifiedKFold helps imbalanced classification, and why time-based validation avoids future leakage. Needs cleaner wording on final test set usage."
     }
   ]
 }
