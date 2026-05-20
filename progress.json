@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 3,
-  "longest_streak": 3,
-  "last_completed_date": "2026-05-19",
+  "current_streak": 4,
+  "longest_streak": 4,
+  "last_completed_date": "2026-05-20",
   "completed_days": [
     {
       "day": 1,
@@ -48,6 +48,20 @@
         "Explaining that repeated test-set checking causes humans to overfit decisions to the test set, rather than the model directly learning it"
       ],
       "notes": "Good understanding of why single splits can mislead, why StratifiedKFold helps imbalanced classification, and why time-based validation avoids future leakage. Needs cleaner wording on final test set usage."
+    },
+    {
+      "day": 4,
+      "date": "2026-05-20",
+      "topic": "Bias-variance tradeoff and diagnosing underfitting vs overfitting",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "7.5/8",
+      "weak_areas": [
+        "Precise wording around regularization strength and model flexibility"
+      ],
+      "notes": "Strong understanding of high bias vs high variance patterns, decision tree overfitting fixes, and why more data mainly helps variance."
     }
   ]
 }
