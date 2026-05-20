@@ -2,12 +2,29 @@
 
 ## Current Status
 
-- Current streak: 3 days
-- Longest streak: 3 days
-- Last completed date: 2026-05-19
+- Current streak: 4 days
+- Longest streak: 4 days
+- Last completed date: 2026-05-20
 - Learner level: Intermediate
 
 ## Completed Days
+
+### Day 4 - 2026-05-20
+
+**Topic:** Bias-variance tradeoff and diagnosing underfitting vs overfitting
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 7.5/8
+
+**Key learning:** High bias means underfitting with low train and validation scores; high variance means overfitting with high train score and lower validation score.
+
+**Weak area to polish:** Precise wording around regularization strength and model flexibility.
 
 ### Day 3 - 2026-05-19
 
