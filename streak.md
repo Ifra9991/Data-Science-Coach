@@ -2,12 +2,29 @@
 
 ## Current Status
 
-- Current streak: 4 days
-- Longest streak: 4 days
-- Last completed date: 2026-05-20
+- Current streak: 5 days
+- Longest streak: 5 days
+- Last completed date: 2026-05-21
 - Learner level: Intermediate
 
 ## Completed Days
+
+### Day 5 - 2026-05-21
+
+**Topic:** Regularization, L1, L2, C, and feature scaling
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/8
+
+**Key learning:** Smaller C means stronger regularization, larger C means weaker regularization, L1 can zero out coefficients, L2 shrinks weights, and scaling is important because penalties act on coefficient magnitude.
+
+**Weak areas to polish:** None today.
 
 ### Day 4 - 2026-05-20
 
