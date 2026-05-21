@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 4,
-  "longest_streak": 4,
-  "last_completed_date": "2026-05-20",
+  "current_streak": 5,
+  "longest_streak": 5,
+  "last_completed_date": "2026-05-21",
   "completed_days": [
     {
       "day": 1,
@@ -62,6 +62,18 @@
         "Precise wording around regularization strength and model flexibility"
       ],
       "notes": "Strong understanding of high bias vs high variance patterns, decision tree overfitting fixes, and why more data mainly helps variance."
+    },
+    {
+      "day": 5,
+      "date": "2026-05-21",
+      "topic": "Regularization, L1, L2, C, and feature scaling",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "8/8",
+      "weak_areas": [],
+      "notes": "Excellent understanding of regularization, the inverse meaning of C, L1 feature selection, L2 shrinkage, and why scaling matters before regularized logistic regression."
     }
   ]
 }
