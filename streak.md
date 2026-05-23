@@ -2,12 +2,47 @@
 
 ## Current Status
 
-- Current streak: 5 days
-- Longest streak: 5 days
-- Last completed date: 2026-05-21
+- Current streak: 7 days
+- Longest streak: 7 days
+- Last completed date: 2026-05-23
 - Learner level: Intermediate
+- Weekly review 1: Due, covering Days 1-7 with 100 MCQs
 
 ## Completed Days
+
+### Day 7 - 2026-05-23
+
+**Topic:** GridSearchCV and hyperparameter tuning inside pipelines
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/10
+
+**Key learning:** GridSearchCV tests hyperparameter combinations using cross-validation, pipeline parameters use `step__parameter` syntax, and final test data should be used only after tuning.
+
+**Weak areas to polish:** Exact API meanings for `grid.best_score_` and `grid.best_estimator_`, plus remembering to expand/refine the search when the best parameter is at the grid edge.
+
+### Day 6 - 2026-05-22
+
+**Topic:** Pipelines and ColumnTransformer
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 7.5/8
+
+**Key learning:** Pipeline ties preprocessing and modeling into one reproducible workflow; ColumnTransformer applies different preprocessing to numeric and categorical columns.
+
+**Weak area to polish:** LogisticRegression fits during pipeline `fit`; prediction happens later with `predict()`.
 
 ### Day 5 - 2026-05-21
 
