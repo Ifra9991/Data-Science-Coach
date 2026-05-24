@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 7,
-  "longest_streak": 7,
-  "last_completed_date": "2026-05-23",
+  "current_streak": 8,
+  "longest_streak": 8,
+  "last_completed_date": "2026-05-24",
   "completed_days": [
     {
       "day": 1,
@@ -104,15 +104,52 @@
         "Precise wording for grid.best_estimator_ as the fitted pipeline with the best hyperparameters"
       ],
       "notes": "Good understanding of hyperparameters, GridSearchCV, pipeline parameter syntax, and why tuning should use CV instead of repeated final test checks. Needs polish on a few exact API meanings."
+    },
+    {
+      "day": 8,
+      "date": "2026-05-24",
+      "topic": "Weekly Review 1: Days 1-7 cumulative MCQ assessment",
+      "review_completed": true,
+      "test_completed": true,
+      "score": "91/100",
+      "weak_areas": [
+        "Threshold direction under business constraints",
+        "False positive vs false negative interpretation in context",
+        "Recall calculation and meaning",
+        "Logistic regression C direction for high variance",
+        "Exact GridSearchCV scoring meaning"
+      ],
+      "notes": "Excellent weekly review performance. Strongest areas include leakage, cross-validation, pipelines, regularization basics, and GridSearchCV workflow. Needs targeted revision on threshold/metric reasoning in business scenarios."
     }
   ],
   "weekly_reviews": [
     {
       "review_number": 1,
-      "status": "due",
-      "due_after_day": 7,
+      "status": "completed",
+      "date": "2026-05-24",
       "scope": "Days 1-7",
-      "planned_questions": 100
+      "planned_questions": 100,
+      "completed_questions": 100,
+      "score": "91/100",
+      "set_scores": {
+        "set_1": "19/20",
+        "set_2": "20/20",
+        "set_3": "20/20",
+        "set_4": "14/20",
+        "set_5": "18/20"
+      },
+      "weak_topics": [
+        "Threshold direction under business constraints",
+        "False positive vs false negative interpretation in context",
+        "Recall calculation and meaning",
+        "Logistic regression C direction for high variance",
+        "Exact GridSearchCV scoring meaning"
+      ],
+      "next_steps": [
+        "Begin next week with a short warm-up on precision/recall threshold decisions",
+        "Use more scenario-based questions and fewer definition-only MCQs",
+        "Continue intermediate applied ML workflow lessons"
+      ]
     }
   ]
 }
