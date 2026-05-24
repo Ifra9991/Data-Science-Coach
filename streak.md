@@ -2,13 +2,48 @@
 
 ## Current Status
 
-- Current streak: 7 days
-- Longest streak: 7 days
-- Last completed date: 2026-05-23
+- Current streak: 8 days
+- Longest streak: 8 days
+- Last completed date: 2026-05-24
 - Learner level: Intermediate
-- Weekly review 1: Due, covering Days 1-7 with 100 MCQs
+- Weekly review 1: Completed, 91/100
+
+## Weekly Reviews
+
+### Weekly Review 1 - 2026-05-24
+
+**Scope:** Days 1-7
+
+**Score:** 91/100
+
+**Set scores:**
+
+- Set 1: 19/20
+- Set 2: 20/20
+- Set 3: 20/20
+- Set 4: 14/20
+- Set 5: 18/20
+
+**Strong areas:** Leakage, cross-validation, stratified folds, pipelines, regularization basics, and GridSearchCV workflow.
+
+**Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 8 - 2026-05-24
+
+**Topic:** Weekly Review 1: Days 1-7 cumulative MCQ assessment
+
+**Completed:**
+
+- Review
+- 100-MCQ test
+
+**Test score:** 91/100
+
+**Key learning:** Scenario-based questions reveal metric reasoning better than definition-only questions. Future tests should stay analytical and avoid answer-pattern clustering.
+
+**Weak areas to polish:** Threshold strategy, false positive/false negative context, and recall interpretation.
 
 ### Day 7 - 2026-05-23
 
