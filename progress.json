@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 8,
-  "longest_streak": 8,
-  "last_completed_date": "2026-05-24",
+  "current_streak": 9,
+  "longest_streak": 9,
+  "last_completed_date": "2026-05-25",
   "completed_days": [
     {
       "day": 1,
@@ -120,6 +120,23 @@
         "Exact GridSearchCV scoring meaning"
       ],
       "notes": "Excellent weekly review performance. Strongest areas include leakage, cross-validation, pipelines, regularization basics, and GridSearchCV workflow. Needs targeted revision on threshold/metric reasoning in business scenarios."
+    },
+    {
+      "day": 9,
+      "date": "2026-05-25",
+      "topic": "Business cost matrix and threshold decisions",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "6/10",
+      "weak_areas": [
+        "Threshold direction when false negatives are expensive",
+        "Threshold direction when false positives are expensive",
+        "Cost calculation accuracy",
+        "Explaining why lowest and highest thresholds are not automatically best"
+      ],
+      "notes": "Understands false positives and false negatives in churn/fraud contexts and can choose by calculated total cost during discussion/practical. Still reverses threshold direction under abstract wording, so next lesson should begin with a short threshold drill."
     }
   ],
   "weekly_reviews": [
