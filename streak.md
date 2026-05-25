@@ -2,9 +2,9 @@
 
 ## Current Status
 
-- Current streak: 8 days
-- Longest streak: 8 days
-- Last completed date: 2026-05-24
+- Current streak: 9 days
+- Longest streak: 9 days
+- Last completed date: 2026-05-25
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 
@@ -29,6 +29,23 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 9 - 2026-05-25
+
+**Topic:** Business cost matrix and threshold decisions
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 6/10
+
+**Key learning:** Threshold choice should be based on business cost, not F1 alone or a vague sense of balance.
+
+**Weak areas to polish:** Threshold direction when false negatives or false positives are expensive, cost calculation accuracy, and explaining why the lowest/highest threshold is not automatically best.
 
 ### Day 8 - 2026-05-24
 
