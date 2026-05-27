@@ -2,9 +2,9 @@
 
 ## Current Status
 
-- Current streak: 9 days
-- Longest streak: 9 days
-- Last completed date: 2026-05-25
+- Current streak: 10 days
+- Longest streak: 10 days
+- Last completed date: 2026-05-26
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 
@@ -29,6 +29,23 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 10 - 2026-05-26
+
+**Topic:** Probability calibration
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 10/10
+
+**Key learning:** Calibration means predicted probabilities match real-world frequencies; ranking asks who is riskier, while calibration asks how risky they really are.
+
+**Weak areas to polish:** None today.
 
 ### Day 9 - 2026-05-25
 
