@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 9,
-  "longest_streak": 9,
-  "last_completed_date": "2026-05-25",
+  "current_streak": 10,
+  "longest_streak": 10,
+  "last_completed_date": "2026-05-26",
   "completed_days": [
     {
       "day": 1,
@@ -137,6 +137,18 @@
         "Explaining why lowest and highest thresholds are not automatically best"
       ],
       "notes": "Understands false positives and false negatives in churn/fraud contexts and can choose by calculated total cost during discussion/practical. Still reverses threshold direction under abstract wording, so next lesson should begin with a short threshold drill."
+    },
+    {
+      "day": 10,
+      "date": "2026-05-26",
+      "topic": "Probability calibration",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "10/10",
+      "weak_areas": [],
+      "notes": "Excellent understanding of calibration as predicted probabilities matching real-world frequencies, the difference between ranking and calibration, overconfidence in probability bins, and why calibration matters for cost-based decisions."
     }
   ],
   "weekly_reviews": [
