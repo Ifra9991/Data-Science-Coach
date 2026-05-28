@@ -2,9 +2,9 @@
 
 ## Current Status
 
-- Current streak: 10 days
-- Longest streak: 10 days
-- Last completed date: 2026-05-26
+- Current streak: 11 days
+- Longest streak: 11 days
+- Last completed date: 2026-05-28
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 
@@ -29,6 +29,25 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 11 - 2026-05-28
+
+**Topic:** ROC-AUC and ranking quality
+
+**Started:** 2026-05-27
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/10
+
+**Key learning:** ROC-AUC measures ranking quality: the chance that a randomly chosen positive case scores above a randomly chosen negative case.
+
+**Weak areas to polish:** ROC-AUC of 0.5 means random ranking, TPR/FPR formulas, and what to inspect beyond ROC-AUC for rare fraud detection.
 
 ### Day 10 - 2026-05-26
 
