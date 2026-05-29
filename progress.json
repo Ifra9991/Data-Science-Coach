@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 11,
-  "longest_streak": 11,
-  "last_completed_date": "2026-05-28",
+  "current_streak": 12,
+  "longest_streak": 12,
+  "last_completed_date": "2026-05-29",
   "completed_days": [
     {
       "day": 1,
@@ -166,6 +166,23 @@
         "Knowing what to inspect besides ROC-AUC for rare fraud detection: precision, recall, PR-AUC, calibration, thresholds, and business cost"
       ],
       "notes": "Good understanding of ROC-AUC as ranking quality and as the probability that a random positive scores above a random negative. Understands that ROC-AUC does not imply calibration or choose a business threshold."
+    },
+    {
+      "day": 12,
+      "date": "2026-05-29",
+      "started_date": "2026-05-28",
+      "topic": "PR-AUC and rare positive-class evaluation",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "8/10",
+      "weak_areas": [
+        "Explaining PR-AUC relative to the positive-rate baseline",
+        "Interpreting why PR-AUC in the practical was better than baseline",
+        "Precise wording that PR-AUC summarizes the precision-recall tradeoff across thresholds"
+      ],
+      "notes": "Understands that PR-AUC is useful for rare positives, knows the positive-rate baseline rule, and can explain high recall/low precision and high precision/low recall operationally. Needs more practice comparing PR-AUC to baseline and explaining practical results."
     }
   ],
   "weekly_reviews": [
