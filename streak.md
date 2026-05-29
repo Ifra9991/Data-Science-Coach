@@ -2,9 +2,9 @@
 
 ## Current Status
 
-- Current streak: 11 days
-- Longest streak: 11 days
-- Last completed date: 2026-05-28
+- Current streak: 12 days
+- Longest streak: 12 days
+- Last completed date: 2026-05-29
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 
@@ -29,6 +29,25 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 12 - 2026-05-29
+
+**Topic:** PR-AUC and rare positive-class evaluation
+
+**Started:** 2026-05-28
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/10
+
+**Key learning:** PR-AUC focuses on positive-class performance and is often more informative for rare events because it summarizes the precision-recall tradeoff across thresholds.
+
+**Weak areas to polish:** Explaining PR-AUC relative to the positive-rate baseline and interpreting why a practical PR-AUC is better than baseline.
 
 ### Day 11 - 2026-05-28
 
