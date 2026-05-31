@@ -2,11 +2,12 @@
 
 ## Current Status
 
-- Current streak: 12 days
-- Longest streak: 12 days
-- Last completed date: 2026-05-29
+- Current streak: 13 days
+- Longest streak: 13 days
+- Last completed date: 2026-05-31
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
+- Pending sync: progress.json still needs Day 13 update after connector recovers fully
 
 ## Weekly Reviews
 
@@ -29,6 +30,25 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 13 - 2026-05-31
+
+**Topic:** Handling Imbalanced Classification
+
+**Started:** 2026-05-29
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/10
+
+**Key learning:** Accuracy can be misleading in imbalanced classification; class weights can improve minority-class recall but often increase false positives; threshold tuning changes the cutoff without retraining.
+
+**Weak areas to polish:** Resampling safety, precise class-1 precision/recall wording, and understanding why threshold tuning should still be tested on a model with better PR-AUC.
 
 ### Day 12 - 2026-05-29
 
