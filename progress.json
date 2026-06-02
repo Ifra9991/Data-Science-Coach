@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 12,
-  "longest_streak": 12,
-  "last_completed_date": "2026-05-29",
+  "current_streak": 14,
+  "longest_streak": 14,
+  "last_completed_date": "2026-06-02",
   "completed_days": [
     {
       "day": 1,
@@ -16,7 +16,7 @@
       "weak_areas": [
         "Precise wording around prediction-time availability"
       ],
-      "notes": "Understands that leakage depends on time availability, not just feature names."
+      "notes": "Understands that leakage depends on time availability, not only on feature names."
     },
     {
       "day": 2,
@@ -136,7 +136,7 @@
         "Cost calculation accuracy",
         "Explaining why lowest and highest thresholds are not automatically best"
       ],
-      "notes": "Understands false positives and false negatives in churn/fraud contexts and can choose by calculated total cost during discussion/practical. Still reverses threshold direction under abstract wording, so next lesson should begin with a short threshold drill."
+      "notes": "Understands false positives and false negatives in churn/fraud contexts and can choose by calculated total cost during discussion/practical. Still reverses threshold direction under abstract wording."
     },
     {
       "day": 10,
@@ -183,6 +183,39 @@
         "Precise wording that PR-AUC summarizes the precision-recall tradeoff across thresholds"
       ],
       "notes": "Understands that PR-AUC is useful for rare positives, knows the positive-rate baseline rule, and can explain high recall/low precision and high precision/low recall operationally. Needs more practice comparing PR-AUC to baseline and explaining practical results."
+    },
+    {
+      "day": 13,
+      "date": "2026-05-31",
+      "started_date": "2026-05-29",
+      "topic": "Handling Imbalanced Classification",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "8/10",
+      "weak_areas": [
+        "Resampling safety",
+        "Precise class-1 precision and recall wording",
+        "Understanding why threshold tuning should still be tested on a model with better PR-AUC"
+      ],
+      "notes": "Good understanding that accuracy can mislead, class weights can improve minority-class recall, and threshold tuning changes the cutoff without retraining. Needs polish on resampling leakage and precision/recall wording."
+    },
+    {
+      "day": 14,
+      "date": "2026-06-02",
+      "started_date": "2026-05-31",
+      "topic": "Error analysis for false positives and false negatives",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "8/10",
+      "weak_areas": [
+        "Using churn-specific wording instead of fraud wording when describing churn false positives and false negatives",
+        "Turning error patterns into clear next checks such as support topic, ticket resolution, and segment-specific threshold analysis"
+      ],
+      "notes": "Understands that error analysis inspects wrong predictions and reveals model weak spots beyond overall metrics. Correctly identified false negative pattern among very new, low-fee customers with no support tickets and false positive pattern among high-support-ticket customers."
     }
   ],
   "weekly_reviews": [
@@ -209,9 +242,9 @@
         "Exact GridSearchCV scoring meaning"
       ],
       "next_steps": [
-        "Begin next week with a short warm-up on precision/recall threshold decisions",
         "Use more scenario-based questions and fewer definition-only MCQs",
-        "Continue intermediate applied ML workflow lessons"
+        "Continue intermediate applied ML workflow lessons",
+        "Reinforce threshold and error-analysis language in business contexts"
       ]
     }
   ]
