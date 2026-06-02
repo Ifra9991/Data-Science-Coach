@@ -2,12 +2,11 @@
 
 ## Current Status
 
-- Current streak: 13 days
-- Longest streak: 13 days
-- Last completed date: 2026-05-31
+- Current streak: 14 days
+- Longest streak: 14 days
+- Last completed date: 2026-06-02
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
-- Pending sync: progress.json still needs Day 13 update after connector recovers fully
 
 ## Weekly Reviews
 
@@ -30,6 +29,25 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 14 - 2026-06-02
+
+**Topic:** Error analysis for false positives and false negatives
+
+**Started:** 2026-05-31
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/10
+
+**Key learning:** Metrics tell how much the model is wrong; error analysis tells where and why it is wrong.
+
+**Weak areas to polish:** Churn-specific FP/FN wording and turning error patterns into precise next checks such as support topic, ticket resolution, and segment-specific threshold analysis.
 
 ### Day 13 - 2026-05-31
 
