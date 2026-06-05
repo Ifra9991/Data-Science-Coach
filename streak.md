@@ -2,13 +2,34 @@
 
 ## Current Status
 
-- Current streak: 14 days
+- Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-02
+- Last completed date: 2026-06-05
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
+- Weekly review 2: Completed, 94/100
+
+Note: The current calendar streak restarted on 2026-06-05 because no completed learning record exists for 2026-06-03 or 2026-06-04. The longest streak remains 14 days.
 
 ## Weekly Reviews
+
+### Weekly Review 2 - 2026-06-05
+
+**Scope:** Days 8-14
+
+**Score:** 94/100
+
+**Set scores:**
+
+- Set 1: 18/20
+- Set 2: 19/20
+- Set 3: 19/20
+- Set 4: 19/20
+- Set 5: 19/20
+
+**Strong areas:** Calibration, ROC-AUC, PR-AUC baseline interpretation, class imbalance strategies, threshold tuning, resampling safety, and error analysis.
+
+**Weak areas to polish:** Class-1 precision vs recall wording, recall calculation, high precision/low recall interpretation, weighted average meaning in imbalanced classification, and careful cost-matrix arithmetic.
 
 ### Weekly Review 1 - 2026-05-24
 
@@ -29,6 +50,21 @@
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 15 - 2026-06-05
+
+**Topic:** Weekly Review 2: Days 8-14 cumulative MCQ assessment
+
+**Completed:**
+
+- Review
+- 100-MCQ test
+
+**Test score:** 94/100
+
+**Key learning:** The second-week concepts are much stronger now, especially calibration, ROC-AUC, PR-AUC, imbalance handling, and error analysis.
+
+**Weak areas to polish:** Precision/recall wording, recall calculation, high precision/low recall interpretation, weighted average meaning, and cost-matrix arithmetic.
 
 ### Day 14 - 2026-06-02
 
