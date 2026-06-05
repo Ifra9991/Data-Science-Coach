@@ -1,8 +1,8 @@
 {
   "learner_level": "intermediate",
-  "current_streak": 14,
+  "current_streak": 1,
   "longest_streak": 14,
-  "last_completed_date": "2026-06-02",
+  "last_completed_date": "2026-06-05",
   "completed_days": [
     {
       "day": 1,
@@ -13,9 +13,7 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "6.5/7",
-      "weak_areas": [
-        "Precise wording around prediction-time availability"
-      ],
+      "weak_areas": ["Precise wording around prediction-time availability"],
       "notes": "Understands that leakage depends on time availability, not only on feature names."
     },
     {
@@ -58,9 +56,7 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "7.5/8",
-      "weak_areas": [
-        "Precise wording around regularization strength and model flexibility"
-      ],
+      "weak_areas": ["Precise wording around regularization strength and model flexibility"],
       "notes": "Strong understanding of high bias vs high variance patterns, decision tree overfitting fixes, and why more data mainly helps variance."
     },
     {
@@ -84,9 +80,7 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "7.5/8",
-      "weak_areas": [
-        "Precise wording that LogisticRegression fits during pipeline fit; prediction happens later with predict()"
-      ],
+      "weak_areas": ["Precise wording that LogisticRegression fits during pipeline fit; prediction happens later with predict()"],
       "notes": "Handled a difficult pipeline lesson well. Understands Pipeline, ColumnTransformer, separate preprocessing for numeric/categorical features, handle_unknown='ignore', and why preprocessing inside CV prevents leakage."
     },
     {
@@ -216,6 +210,22 @@
         "Turning error patterns into clear next checks such as support topic, ticket resolution, and segment-specific threshold analysis"
       ],
       "notes": "Understands that error analysis inspects wrong predictions and reveals model weak spots beyond overall metrics. Correctly identified false negative pattern among very new, low-fee customers with no support tickets and false positive pattern among high-support-ticket customers."
+    },
+    {
+      "day": 15,
+      "date": "2026-06-05",
+      "topic": "Weekly Review 2: Days 8-14 cumulative MCQ assessment",
+      "review_completed": true,
+      "test_completed": true,
+      "score": "94/100",
+      "weak_areas": [
+        "Class-1 precision vs recall wording",
+        "Recall calculation from caught positives and actual positives",
+        "High precision and low recall interpretation",
+        "Weighted average meaning in imbalanced classification",
+        "Careful cost-matrix arithmetic"
+      ],
+      "notes": "Excellent weekly review performance. Strongest areas include calibration, ROC-AUC, PR-AUC baseline interpretation, class imbalance strategies, threshold tuning, resampling safety, and error analysis. Calendar streak reset because no completed learning record exists for 2026-06-03 or 2026-06-04; longest streak remains 14."
     }
   ],
   "weekly_reviews": [
@@ -245,6 +255,34 @@
         "Use more scenario-based questions and fewer definition-only MCQs",
         "Continue intermediate applied ML workflow lessons",
         "Reinforce threshold and error-analysis language in business contexts"
+      ]
+    },
+    {
+      "review_number": 2,
+      "status": "completed",
+      "date": "2026-06-05",
+      "scope": "Days 8-14",
+      "planned_questions": 100,
+      "completed_questions": 100,
+      "score": "94/100",
+      "set_scores": {
+        "set_1": "18/20",
+        "set_2": "19/20",
+        "set_3": "19/20",
+        "set_4": "19/20",
+        "set_5": "19/20"
+      },
+      "weak_topics": [
+        "Class-1 precision vs recall wording",
+        "Recall calculation",
+        "High precision and low recall interpretation",
+        "Weighted average meaning in imbalanced classification",
+        "Careful cost-matrix arithmetic"
+      ],
+      "next_steps": [
+        "Start Day 16 with feature engineering for ML models",
+        "Include quick precision/recall calculation drills before new lessons",
+        "Continue using scenario-based weekly MCQs"
       ]
     }
   ]
