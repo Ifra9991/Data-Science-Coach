@@ -2,7 +2,7 @@
   "learner_level": "intermediate",
   "current_streak": 1,
   "longest_streak": 14,
-  "last_completed_date": "2026-06-05",
+  "last_completed_date": "2026-06-07",
   "completed_days": [
     {
       "day": 1,
@@ -226,6 +226,22 @@
         "Careful cost-matrix arithmetic"
       ],
       "notes": "Excellent weekly review performance. Strongest areas include calibration, ROC-AUC, PR-AUC baseline interpretation, class imbalance strategies, threshold tuning, resampling safety, and error analysis. Calendar streak reset because no completed learning record exists for 2026-06-03 or 2026-06-04; longest streak remains 14."
+    },
+    {
+      "day": 16,
+      "date": "2026-06-07",
+      "started_date": "2026-06-06",
+      "topic": "Feature Engineering for ML Models",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "9.5/10",
+      "weak_areas": [
+        "Event-level to customer-level aggregation wording",
+        "Remembering that usage drop can be negative when recent usage increased"
+      ],
+      "notes": "Strong understanding of time-safe feature engineering, recency, frequency, trend/change, ratio, and segment features. Practical needed guidance on groupby aggregation and date-window filtering, but the final conceptual answers were excellent. Completion streak remains 1 because Day 16 completed on 2026-06-07 after no fully completed lesson on 2026-06-06."
     }
   ],
   "weekly_reviews": [
