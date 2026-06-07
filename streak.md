@@ -4,12 +4,12 @@
 
 - Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-05
+- Last completed date: 2026-06-07
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: The current calendar streak restarted on 2026-06-05 because no completed learning record exists for 2026-06-03 or 2026-06-04. The longest streak remains 14 days.
+Note: Day 16 started on 2026-06-06 and was completed on 2026-06-07. The current completion streak remains 1 day because the streak is counted by fully completed lesson days, including the test. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,25 @@ Note: The current calendar streak restarted on 2026-06-05 because no completed l
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 16 - 2026-06-07
+
+**Topic:** Feature Engineering for ML Models
+
+**Started:** 2026-06-06
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 9.5/10
+
+**Key learning:** Good features convert business signals into time-safe numerical inputs. Recency, frequency, trend/change, ratio, and segment features all help the model see customer behavior more clearly.
+
+**Weak areas to polish:** Event-level to customer-level aggregation wording and remembering that negative usage drop means recent usage increased.
 
 ### Day 15 - 2026-06-05
 
