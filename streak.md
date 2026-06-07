@@ -9,7 +9,7 @@
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: Day 16 started on 2026-06-06 and was completed on 2026-06-07. The current completion streak remains 1 day because the streak is counted by fully completed lesson days, including the test. The longest streak remains 14 days.
+Note: Day 16 and Day 17 were both completed on 2026-06-07. The current streak remains 1 calendar day because streak is counted by completed dates, not by the number of lessons completed on the same date. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,23 @@ Note: Day 16 started on 2026-06-06 and was completed on 2026-06-07. The current 
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 17 - 2026-06-07
+
+**Topic:** EDA for ML Features
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 7.5/8
+
+**Key learning:** EDA checks whether engineered features show sensible signal before modeling. Comparing target-group summaries, mean vs median, segment churn rates, and sample sizes helps catch misleading patterns early.
+
+**Weak areas to polish:** Interpret segment churn rates as group-level results, not single-customer statements; keep sample-size caution attached to strong-looking patterns.
 
 ### Day 16 - 2026-06-07
 
