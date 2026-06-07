@@ -26,11 +26,11 @@
       "test_completed": true,
       "score": "6/8",
       "weak_areas": [
-        "Explaining why a threshold change affects recall only when actual positives cross the new threshold",
+        "Threshold movement and recall",
         "Precise wording for F1-score limitations",
-        "Correctly describing higher threshold effects on false positives and precision"
+        "Higher-threshold effects on false positives and precision"
       ],
-      "notes": "Good understanding of precision and recall definitions and the false positive/false negative decision rule. Needs more practice with threshold movement and business interpretation."
+      "notes": "Good precision/recall definitions and business metric instincts; needs more threshold-direction practice."
     },
     {
       "day": 3,
@@ -41,11 +41,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "6.5/8",
-      "weak_areas": [
-        "Precise role of the final test set",
-        "Explaining that repeated test-set checking causes humans to overfit decisions to the test set, rather than the model directly learning it"
-      ],
-      "notes": "Good understanding of why single splits can mislead, why StratifiedKFold helps imbalanced classification, and why time-based validation avoids future leakage. Needs cleaner wording on final test set usage."
+      "weak_areas": ["Final test set role", "Repeated test-set checking as model-selection leakage"],
+      "notes": "Good understanding of CV, StratifiedKFold, and time-based validation."
     },
     {
       "day": 4,
@@ -56,8 +53,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "7.5/8",
-      "weak_areas": ["Precise wording around regularization strength and model flexibility"],
-      "notes": "Strong understanding of high bias vs high variance patterns, decision tree overfitting fixes, and why more data mainly helps variance."
+      "weak_areas": ["Precise wording around regularization strength and flexibility"],
+      "notes": "Strong high-bias/high-variance diagnosis and decision tree overfitting fixes."
     },
     {
       "day": 5,
@@ -69,7 +66,7 @@
       "test_completed": true,
       "score": "8/8",
       "weak_areas": [],
-      "notes": "Excellent understanding of regularization, the inverse meaning of C, L1 feature selection, L2 shrinkage, and why scaling matters before regularized logistic regression."
+      "notes": "Excellent understanding of C, L1, L2, and why scaling matters."
     },
     {
       "day": 6,
@@ -80,8 +77,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "7.5/8",
-      "weak_areas": ["Precise wording that LogisticRegression fits during pipeline fit; prediction happens later with predict()"],
-      "notes": "Handled a difficult pipeline lesson well. Understands Pipeline, ColumnTransformer, separate preprocessing for numeric/categorical features, handle_unknown='ignore', and why preprocessing inside CV prevents leakage."
+      "weak_areas": ["Pipeline fit vs predict wording"],
+      "notes": "Understands Pipeline, ColumnTransformer, numeric/categorical preprocessing, and leakage-safe CV."
     },
     {
       "day": 7,
@@ -92,12 +89,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "8/10",
-      "weak_areas": [
-        "Precise wording for grid.best_score_ as the best mean CV score among tried parameter combinations",
-        "Remembering what to do when the best parameter is at the edge of the search grid",
-        "Precise wording for grid.best_estimator_ as the fitted pipeline with the best hyperparameters"
-      ],
-      "notes": "Good understanding of hyperparameters, GridSearchCV, pipeline parameter syntax, and why tuning should use CV instead of repeated final test checks. Needs polish on a few exact API meanings."
+      "weak_areas": ["grid.best_score_ meaning", "Grid edge search decisions", "grid.best_estimator_ meaning"],
+      "notes": "Good GridSearchCV and pipeline parameter syntax understanding."
     },
     {
       "day": 8,
@@ -106,14 +99,8 @@
       "review_completed": true,
       "test_completed": true,
       "score": "91/100",
-      "weak_areas": [
-        "Threshold direction under business constraints",
-        "False positive vs false negative interpretation in context",
-        "Recall calculation and meaning",
-        "Logistic regression C direction for high variance",
-        "Exact GridSearchCV scoring meaning"
-      ],
-      "notes": "Excellent weekly review performance. Strongest areas include leakage, cross-validation, pipelines, regularization basics, and GridSearchCV workflow. Needs targeted revision on threshold/metric reasoning in business scenarios."
+      "weak_areas": ["Threshold strategy", "FP/FN context", "Recall interpretation", "C direction", "GridSearchCV scoring"],
+      "notes": "Excellent first weekly review; future tests should stay analytical and avoid answer-pattern clustering."
     },
     {
       "day": 9,
@@ -124,13 +111,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "6/10",
-      "weak_areas": [
-        "Threshold direction when false negatives are expensive",
-        "Threshold direction when false positives are expensive",
-        "Cost calculation accuracy",
-        "Explaining why lowest and highest thresholds are not automatically best"
-      ],
-      "notes": "Understands false positives and false negatives in churn/fraud contexts and can choose by calculated total cost during discussion/practical. Still reverses threshold direction under abstract wording."
+      "weak_areas": ["Threshold direction", "Cost calculation", "Lowest/highest threshold reasoning"],
+      "notes": "Understands cost-based threshold selection in concrete examples; still reverses some abstract threshold wording."
     },
     {
       "day": 10,
@@ -142,7 +124,7 @@
       "test_completed": true,
       "score": "10/10",
       "weak_areas": [],
-      "notes": "Excellent understanding of calibration as predicted probabilities matching real-world frequencies, the difference between ranking and calibration, overconfidence in probability bins, and why calibration matters for cost-based decisions."
+      "notes": "Excellent calibration, ranking vs calibration, overconfidence, and business probability interpretation."
     },
     {
       "day": 11,
@@ -154,12 +136,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "8/10",
-      "weak_areas": [
-        "ROC-AUC of 0.5 means random ranking, not slightly good ranking",
-        "Remembering TPR and FPR formulas, not only their names",
-        "Knowing what to inspect besides ROC-AUC for rare fraud detection: precision, recall, PR-AUC, calibration, thresholds, and business cost"
-      ],
-      "notes": "Good understanding of ROC-AUC as ranking quality and as the probability that a random positive scores above a random negative. Understands that ROC-AUC does not imply calibration or choose a business threshold."
+      "weak_areas": ["ROC-AUC 0.5 interpretation", "TPR/FPR formulas", "What to inspect beyond ROC-AUC"],
+      "notes": "Good understanding of ROC-AUC as ranking quality and probability a positive beats a negative."
     },
     {
       "day": 12,
@@ -171,12 +149,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "8/10",
-      "weak_areas": [
-        "Explaining PR-AUC relative to the positive-rate baseline",
-        "Interpreting why PR-AUC in the practical was better than baseline",
-        "Precise wording that PR-AUC summarizes the precision-recall tradeoff across thresholds"
-      ],
-      "notes": "Understands that PR-AUC is useful for rare positives, knows the positive-rate baseline rule, and can explain high recall/low precision and high precision/low recall operationally. Needs more practice comparing PR-AUC to baseline and explaining practical results."
+      "weak_areas": ["PR-AUC baseline wording", "Practical PR-AUC interpretation", "Precision-recall tradeoff wording"],
+      "notes": "Understands PR-AUC for rare positives and positive-rate baseline rule."
     },
     {
       "day": 13,
@@ -188,12 +162,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "8/10",
-      "weak_areas": [
-        "Resampling safety",
-        "Precise class-1 precision and recall wording",
-        "Understanding why threshold tuning should still be tested on a model with better PR-AUC"
-      ],
-      "notes": "Good understanding that accuracy can mislead, class weights can improve minority-class recall, and threshold tuning changes the cutoff without retraining. Needs polish on resampling leakage and precision/recall wording."
+      "weak_areas": ["Resampling safety", "Class-1 precision/recall wording", "Threshold tuning after PR-AUC comparison"],
+      "notes": "Good understanding that accuracy can mislead and class weights can improve minority-class recall."
     },
     {
       "day": 14,
@@ -205,11 +175,8 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "8/10",
-      "weak_areas": [
-        "Using churn-specific wording instead of fraud wording when describing churn false positives and false negatives",
-        "Turning error patterns into clear next checks such as support topic, ticket resolution, and segment-specific threshold analysis"
-      ],
-      "notes": "Understands that error analysis inspects wrong predictions and reveals model weak spots beyond overall metrics. Correctly identified false negative pattern among very new, low-fee customers with no support tickets and false positive pattern among high-support-ticket customers."
+      "weak_areas": ["Churn-specific FP/FN wording", "Turning error patterns into precise next checks"],
+      "notes": "Understands that error analysis explains where and why the model is wrong beyond overall metrics."
     },
     {
       "day": 15,
@@ -218,14 +185,8 @@
       "review_completed": true,
       "test_completed": true,
       "score": "94/100",
-      "weak_areas": [
-        "Class-1 precision vs recall wording",
-        "Recall calculation from caught positives and actual positives",
-        "High precision and low recall interpretation",
-        "Weighted average meaning in imbalanced classification",
-        "Careful cost-matrix arithmetic"
-      ],
-      "notes": "Excellent weekly review performance. Strongest areas include calibration, ROC-AUC, PR-AUC baseline interpretation, class imbalance strategies, threshold tuning, resampling safety, and error analysis. Calendar streak reset because no completed learning record exists for 2026-06-03 or 2026-06-04; longest streak remains 14."
+      "weak_areas": ["Class-1 precision vs recall wording", "Recall calculation", "High precision/low recall", "Weighted average", "Cost arithmetic"],
+      "notes": "Excellent second weekly review. Calendar streak reset because no completed learning record exists for 2026-06-03 or 2026-06-04."
     },
     {
       "day": 16,
@@ -237,11 +198,23 @@
       "practical_completed": true,
       "test_completed": true,
       "score": "9.5/10",
+      "weak_areas": ["Event-level to customer-level aggregation wording", "Negative usage drop interpretation"],
+      "notes": "Strong time-safe feature engineering understanding. Practical needed guidance on groupby aggregation and date-window filtering."
+    },
+    {
+      "day": 17,
+      "date": "2026-06-07",
+      "topic": "EDA for ML Features",
+      "lesson_completed": true,
+      "discussion_completed": true,
+      "practical_completed": true,
+      "test_completed": true,
+      "score": "7.5/8",
       "weak_areas": [
-        "Event-level to customer-level aggregation wording",
-        "Remembering that usage drop can be negative when recent usage increased"
+        "Interpreting segment churn rates as group-level results, not a single-customer statement",
+        "Separating feature signal from proof when sample sizes are tiny"
       ],
-      "notes": "Strong understanding of time-safe feature engineering, recency, frequency, trend/change, ratio, and segment features. Practical needed guidance on groupby aggregation and date-window filtering, but the final conceptual answers were excellent. Completion streak remains 1 because Day 16 completed on 2026-06-07 after no fully completed lesson on 2026-06-06."
+      "notes": "Good focused understanding of ML EDA: compare features against target, inspect mean vs median, watch outliers, check segment churn rates, and respect sample size. Practical needed correction on failed-payment-rate interpretation and small-sample caution."
     }
   ],
   "weekly_reviews": [
@@ -260,18 +233,8 @@
         "set_4": "14/20",
         "set_5": "18/20"
       },
-      "weak_topics": [
-        "Threshold direction under business constraints",
-        "False positive vs false negative interpretation in context",
-        "Recall calculation and meaning",
-        "Logistic regression C direction for high variance",
-        "Exact GridSearchCV scoring meaning"
-      ],
-      "next_steps": [
-        "Use more scenario-based questions and fewer definition-only MCQs",
-        "Continue intermediate applied ML workflow lessons",
-        "Reinforce threshold and error-analysis language in business contexts"
-      ]
+      "weak_topics": ["Threshold direction under business constraints", "False positive vs false negative interpretation", "Recall calculation", "C direction", "GridSearchCV scoring"],
+      "next_steps": ["Use scenario-based questions", "Continue intermediate applied ML workflow lessons", "Reinforce threshold and error-analysis language"]
     },
     {
       "review_number": 2,
@@ -288,18 +251,8 @@
         "set_4": "19/20",
         "set_5": "19/20"
       },
-      "weak_topics": [
-        "Class-1 precision vs recall wording",
-        "Recall calculation",
-        "High precision and low recall interpretation",
-        "Weighted average meaning in imbalanced classification",
-        "Careful cost-matrix arithmetic"
-      ],
-      "next_steps": [
-        "Start Day 16 with feature engineering for ML models",
-        "Include quick precision/recall calculation drills before new lessons",
-        "Continue using scenario-based weekly MCQs"
-      ]
+      "weak_topics": ["Class-1 precision vs recall wording", "Recall calculation", "High precision and low recall", "Weighted average", "Cost arithmetic"],
+      "next_steps": ["Feature engineering", "Quick precision/recall calculation drills", "Scenario-based weekly MCQs"]
     }
   ]
 }
