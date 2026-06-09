@@ -4,12 +4,12 @@
 
 - Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-07
+- Last completed date: 2026-06-09
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: Day 16 and Day 17 were both completed on 2026-06-07. The current streak remains 1 calendar day because streak is counted by completed dates, not by the number of lessons completed on the same date. The longest streak remains 14 days.
+Note: Day 18 started on 2026-06-08 and was completed on 2026-06-09. The current streak remains 1 calendar day because streak is counted by fully completed lesson dates, including the test. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,25 @@ Note: Day 16 and Day 17 were both completed on 2026-06-07. The current streak re
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 18 - 2026-06-09
+
+**Topic:** Missing Values In ML Features
+
+**Started:** 2026-06-08
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 9/10
+
+**Key learning:** Missing values can be useful signals. Missing indicators, safe imputation, median for skewed numeric columns, `Unknown` for categorical missingness, and pipeline-based imputation all help prevent bad assumptions and leakage.
+
+**Weak areas to polish:** Make zero-imputation rules more precise: missing after event aggregation often means no activity, while missing in a source field may mean unknown. Also say median is less affected by outliers.
 
 ### Day 17 - 2026-06-07
 
