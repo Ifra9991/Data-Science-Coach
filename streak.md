@@ -4,12 +4,12 @@
 
 - Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-09
+- Last completed date: 2026-06-11
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: Day 18 started on 2026-06-08 and was completed on 2026-06-09. The current streak remains 1 calendar day because streak is counted by fully completed lesson dates, including the test. The longest streak remains 14 days.
+Note: Day 19 started on 2026-06-09 and was completed on 2026-06-11. The current streak remains 1 calendar day because no fully completed lesson is recorded for 2026-06-10. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,25 @@ Note: Day 18 started on 2026-06-08 and was completed on 2026-06-09. The current 
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 19 - 2026-06-11
+
+**Topic:** Outliers and Skewed Numeric Features
+
+**Started:** 2026-06-09
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 9/10
+
+**Key learning:** Outlier treatment is a business and modeling decision. Mean vs median can reveal skew, business context helps separate real rare values from errors, log transforms reduce large-value dominance, and segment features can preserve useful high-value customer information.
+
+**Weak areas to polish:** For real extreme values, prefer capping, log transform, or segment features over median imputation. Rare real segments also need caution because sample size can be too small to generalize.
 
 ### Day 18 - 2026-06-09
 
