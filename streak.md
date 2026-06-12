@@ -2,14 +2,14 @@
 
 ## Current Status
 
-- Current streak: 1 day
+- Current streak: 2 days
 - Longest streak: 14 days
-- Last completed date: 2026-06-11
+- Last completed date: 2026-06-12
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: Day 19 started on 2026-06-09 and was completed on 2026-06-11. The current streak remains 1 calendar day because no fully completed lesson is recorded for 2026-06-10. The longest streak remains 14 days.
+Note: Day 20 started on 2026-06-11 and was completed on 2026-06-12. The current streak is now 2 calendar days because Day 19 was completed on 2026-06-11 and Day 20 was completed on 2026-06-12. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,25 @@ Note: Day 19 started on 2026-06-09 and was completed on 2026-06-11. The current 
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 20 - 2026-06-12
+
+**Topic:** Categorical Encoding for ML
+
+**Started:** 2026-06-11
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8/10
+
+**Key learning:** One-hot encoding is safer for unordered low/medium-cardinality categories, ordinal encoding is reasonable for truly ordered categories, high-cardinality features can explode dimensionality, and encoding inside a pipeline prevents train/test preprocessing leakage.
+
+**Weak areas to polish:** Define one-hot encoding precisely as binary indicator columns. Remember that `handle_unknown="ignore"` prevents crashes but does not make the model understand unseen categories; it encodes them as none of the known categories.
 
 ### Day 19 - 2026-06-11
 
