@@ -9,7 +9,7 @@
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: Day 20 started on 2026-06-11 and was completed on 2026-06-12. The current streak is now 2 calendar days because Day 19 was completed on 2026-06-11 and Day 20 was completed on 2026-06-12. The longest streak remains 14 days.
+Note: Day 20 and Day 21 were both completed on 2026-06-12. The current streak remains 2 calendar days because streak counts completed dates, not number of lessons completed on the same date. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,23 @@ Note: Day 20 started on 2026-06-11 and was completed on 2026-06-12. The current 
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 21 - 2026-06-12
+
+**Topic:** Leakage-Safe Preprocessing Pipelines
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 10/10
+
+**Key learning:** ColumnTransformer applies different preprocessing to different column types, and a full pipeline keeps imputation, scaling, encoding, and modeling together so preprocessing is fitted only on training data.
+
+**Weak areas to polish:** None today. Continue remembering that perfect metrics on a tiny test set are not reliable model evidence.
 
 ### Day 20 - 2026-06-12
 
