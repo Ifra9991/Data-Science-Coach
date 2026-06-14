@@ -2,14 +2,14 @@
 
 ## Current Status
 
-- Current streak: 2 days
+- Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-12
+- Last completed date: 2026-06-14
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 
-Note: Day 20 and Day 21 were both completed on 2026-06-12. The current streak remains 2 calendar days because streak counts completed dates, not number of lessons completed on the same date. The longest streak remains 14 days.
+Note: Day 22 was completed on 2026-06-14. The current streak reset to 1 calendar day because no fully completed lesson is recorded for 2026-06-13. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -50,6 +50,23 @@ Note: Day 20 and Day 21 were both completed on 2026-06-12. The current streak re
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 22 - 2026-06-14
+
+**Topic:** Training Set, Validation Set, and Final Test Set
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8.5/10
+
+**Key learning:** Training data teaches the model, validation data supports model/threshold/hyperparameter decisions, and the final test set is a once-near-the-end estimate of unseen performance. Repeated test-set checking creates model-selection leakage.
+
+**Weak areas to polish:** Say that the human overfits decisions to the final test set, not that the model literally learns it. When train and validation are high but test is low, suspect validation strategy, distribution shift, or drift. For time-based churn, explain that chronological splitting simulates deployment.
 
 ### Day 21 - 2026-06-12
 
