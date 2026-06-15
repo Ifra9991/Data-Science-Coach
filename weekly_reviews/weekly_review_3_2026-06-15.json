@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-15",
+  "record_type": "weekly_review",
+  "review_number": 3,
+  "scope": "Days 16-22",
+  "status": "completed",
+  "score": "98/100",
+  "set_scores": {
+    "set_1": "20/20",
+    "set_2": "19/20",
+    "set_3": "20/20",
+    "set_4": "19/20",
+    "set_5": "20/20"
+  },
+  "current_streak_after_completion": 2,
+  "longest_streak": 14,
+  "last_completed_date": "2026-06-15",
+  "missed_questions": [
+    {
+      "question": 36,
+      "topic": "rolling time validation",
+      "correction": "Rolling time validation trains on earlier time periods and validates on later time periods."
+    },
+    {
+      "question": 67,
+      "topic": "event aggregation and left merge missingness",
+      "correction": "After aggregating events and left-merging to customers, missing event counts usually mean zero observed events, not an unknown source-field value."
+    }
+  ],
+  "strong_areas": [
+    "feature engineering categories",
+    "EDA signal interpretation",
+    "missing-value handling",
+    "outlier and skew handling",
+    "categorical encoding",
+    "leakage-safe preprocessing pipelines",
+    "train-validation-final-test roles",
+    "model-selection leakage"
+  ],
+  "weak_topics": [
+    "rolling time validation wording",
+    "distinguishing event-aggregation missingness from source-field missingness"
+  ],
+  "next_steps": [
+    "Begin next lesson after weekly review: likely model interpretation or feature importance.",
+    "Continue using practical, scenario-based questions rather than pattern-based MCQs.",
+    "Give one short drill on rolling validation and event aggregation missingness before moving deeper."
+  ],
+  "teacher_note": "Excellent weekly review. The misses are narrow and technical, not a sign of weak understanding."
+}
