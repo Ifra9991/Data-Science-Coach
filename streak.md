@@ -4,14 +4,33 @@
 
 - Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-14
+- Last completed date: 2026-06-16
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
+- Weekly review 3: Completed, 98/100
 
-Note: Day 22 was completed on 2026-06-14. The current streak reset to 1 calendar day because no fully completed lesson is recorded for 2026-06-13. The longest streak remains 14 days.
+Note: Weekly Review 3 was completed on 2026-06-16. The current streak is 1 calendar day because no fully completed lesson or review is recorded for 2026-06-15. The longest streak remains 14 days.
 
 ## Weekly Reviews
+
+### Weekly Review 3 - 2026-06-16
+
+**Scope:** Days 16-22
+
+**Score:** 98/100
+
+**Set scores:**
+
+- Set 1: 20/20
+- Set 2: 19/20
+- Set 3: 20/20
+- Set 4: 19/20
+- Set 5: 20/20
+
+**Strong areas:** Feature engineering, EDA, missing-value handling, outliers/skew, categorical encoding, leakage-safe preprocessing pipelines, and train/validation/final-test strategy.
+
+**Weak areas to polish:** Rolling/time-based validation mechanics, missing after left-join aggregation versus true unknown missingness, and remembering that identifier columns such as `customer_id` should usually be dropped before modeling.
 
 ### Weekly Review 2 - 2026-06-05
 
@@ -50,6 +69,21 @@ Note: Day 22 was completed on 2026-06-14. The current streak reset to 1 calendar
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 23 - 2026-06-16
+
+**Topic:** Weekly Review 3: Days 16-22 cumulative MCQ assessment
+
+**Completed:**
+
+- Review
+- 100-MCQ test
+
+**Test score:** 98/100
+
+**Key learning:** The third-week concepts are now strong: feature engineering, EDA, missing values, outliers, categorical encoding, leakage-safe preprocessing, and validation strategy.
+
+**Weak areas to polish:** Rolling validation trains on earlier periods and validates on later periods repeatedly. Missing after event aggregation usually means zero events, while missing in a source field means unknown. `customer_id` should normally be used for joining/tracking, not as a model feature.
 
 ### Day 22 - 2026-06-14
 
