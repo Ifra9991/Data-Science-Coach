@@ -2,15 +2,15 @@
 
 ## Current Status
 
-- Current streak: 1 day
+- Current streak: 2 days
 - Longest streak: 14 days
-- Last completed date: 2026-06-16
+- Last completed date: 2026-06-17
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 - Weekly review 3: Completed, 98/100
 
-Note: Weekly Review 3 was completed on 2026-06-16. The current streak is 1 calendar day because no fully completed lesson or review is recorded for 2026-06-15. The longest streak remains 14 days.
+Note: Day 24 was completed on 2026-06-17. The current streak is now 2 calendar days because 2026-06-16 and 2026-06-17 both have completed learning records. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -69,6 +69,23 @@ Note: Weekly Review 3 was completed on 2026-06-16. The current streak is 1 calen
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 24 - 2026-06-17
+
+**Topic:** Model Comparison Workflow
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 8.5/10
+
+**Key learning:** A fair model comparison uses a baseline, the same validation split or CV folds, the same preprocessing pipeline, business-relevant metrics, and protects the final test set until decisions are frozen.
+
+**Weak areas to polish:** A small F1 difference is not enough to choose a model. High cross-validation standard deviation means instability across folds. Explain fair comparison as same data split, same preprocessing, same metric/business context, and no final-test selection leakage.
 
 ### Day 23 - 2026-06-16
 
