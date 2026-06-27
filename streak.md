@@ -2,15 +2,15 @@
 
 ## Current Status
 
-- Current streak: 2 days
+- Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-17
+- Last completed date: 2026-06-27
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 - Weekly review 3: Completed, 98/100
 
-Note: Day 24 was completed on 2026-06-17. The current streak is now 2 calendar days because 2026-06-16 and 2026-06-17 both have completed learning records. The longest streak remains 14 days.
+Note: Day 26 was completed on 2026-06-27. The current streak reset to 1 calendar day because no completed learning records exist for 2026-06-22 through 2026-06-26. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -69,6 +69,40 @@ Note: Day 24 was completed on 2026-06-17. The current streak is now 2 calendar d
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 26 - 2026-06-27
+
+**Topic:** Threshold Tuning After Model Selection
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 10/10
+
+**Key learning:** Threshold is applied to predicted probability, not precision or recall. The best threshold depends on business cost, and threshold tuning should be done on validation data to avoid model-selection leakage.
+
+**Weak areas to polish:** Keep using the precise phrase `model-selection leakage`; remember that lowering threshold usually increases recall, but precision can move unexpectedly depending on whether newly added cases are true positives or false positives.
+
+### Day 25 - 2026-06-21
+
+**Topic:** Cross-Validated Model Comparison
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 9/10
+
+**Key learning:** Cross-validation protects against trusting one lucky or unlucky validation split. Mean CV score shows average performance, while standard deviation shows stability across folds. StratifiedKFold is safer for imbalanced churn classification because it preserves class ratios across folds.
+
+**Weak areas to polish:** Normal KFold can create folds with too few or zero churners. F1 can hide the precision-recall tradeoff, so inspect precision and recall too.
 
 ### Day 24 - 2026-06-17
 
