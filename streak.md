@@ -2,15 +2,15 @@
 
 ## Current Status
 
-- Current streak: 1 day
+- Current streak: 2 days
 - Longest streak: 14 days
-- Last completed date: 2026-06-27
+- Last completed date: 2026-06-28
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 - Weekly review 3: Completed, 98/100
 
-Note: Day 26 was completed on 2026-06-27. The current streak reset to 1 calendar day because no completed learning records exist for 2026-06-22 through 2026-06-26. The longest streak remains 14 days.
+Note: Day 27 was completed on 2026-06-28. The current streak is now 2 calendar days because Day 26 was completed on 2026-06-27 and Day 27 was completed on 2026-06-28. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -69,6 +69,23 @@ Note: Day 26 was completed on 2026-06-27. The current streak reset to 1 calendar
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 27 - 2026-06-28
+
+**Topic:** Feature Importance vs Permutation Importance
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 9.5/10
+
+**Key learning:** Feature importance helps explain what the model uses, but it does not prove causality. Built-in Random Forest importance is model-internal, while permutation importance measures validation-performance damage when a feature is shuffled. Suspiciously important post-outcome fields are leakage warnings.
+
+**Weak areas to polish:** For wide datasets, include the full triage workflow: leakage check, business logic, data-quality checks, EDA signal, model importance, and validation-performance checks. For leakage features, remove, retrain, and re-evaluate; shuffling is only diagnostic.
 
 ### Day 26 - 2026-06-27
 
