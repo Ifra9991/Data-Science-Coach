@@ -2,15 +2,15 @@
 
 ## Current Status
 
-- Current streak: 2 days
+- Current streak: 1 day
 - Longest streak: 14 days
-- Last completed date: 2026-06-28
+- Last completed date: 2026-06-30
 - Learner level: Intermediate
 - Weekly review 1: Completed, 91/100
 - Weekly review 2: Completed, 94/100
 - Weekly review 3: Completed, 98/100
 
-Note: Day 27 was completed on 2026-06-28. The current streak is now 2 calendar days because Day 26 was completed on 2026-06-27 and Day 27 was completed on 2026-06-28. The longest streak remains 14 days.
+Note: Day 28 was completed on 2026-06-30. The current streak reset to 1 calendar day because no completed learning record exists for 2026-06-29. The longest streak remains 14 days.
 
 ## Weekly Reviews
 
@@ -69,6 +69,25 @@ Note: Day 27 was completed on 2026-06-28. The current streak is now 2 calendar d
 **Weak areas to polish:** Threshold direction under business constraints, false positive vs false negative interpretation in context, recall calculation/meaning, logistic regression C direction for high variance, and exact GridSearchCV scoring meaning.
 
 ## Completed Days
+
+### Day 28 - 2026-06-30
+
+**Topic:** Model Interpretation and Explaining Predictions
+
+**Started:** 2026-06-29
+
+**Completed:**
+
+- Lesson
+- Discussion
+- Practical
+- Test
+
+**Test score:** 9.5/10
+
+**Key learning:** Global explanations describe overall model behavior, while local explanations describe one specific prediction. Precision, recall, and F1 are dataset-level metrics, not local metrics. A professional local explanation includes probability, threshold, decision, top signals, business interpretation, recommended action, and a causality caution.
+
+**Weak areas to polish:** Include threshold and causality caution consistently. Avoid emotional or psychological claims such as `shows uninterest`; describe observed behavior instead. Use precise probability formatting such as `0.37` and `0.40`.
 
 ### Day 27 - 2026-06-28
 
